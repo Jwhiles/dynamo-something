@@ -1,0 +1,14 @@
+{
+  "name": "dynamo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-table": "node make-table.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.780.0"
+  }
+}

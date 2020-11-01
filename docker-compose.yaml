@@ -1,0 +1,9 @@
+version: '3' # The version of docker-compose syntax we're using. Just pick 3 I guess
+
+services:
+  dynamodb:
+    image: amazon/dynamodb-local # the image we're using
+    container_name: dynamodb-local # container name..
+    ports:
+      - "8042:8000" # binds the localhost port on the left, to the container port on the right
+
